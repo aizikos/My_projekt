@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+}
+.frist-block {
+    margin: 0;
+    background-image: url(/imges/фон1.jpg);
+    height: 115vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    margin: 0 100px;
+}
+
+.header-title{
+    position: absolute;
+    text-align: center;
+}
+
+.header-title p{
+    margin: 0;
+    margin-top: 40px;
+    font-family: 'Lobster', cursive;
+    color: #1daa42;
+    font-size: 23px;
+}
+
+.header-title h1{
+    font-size: 60px;
+    margin: 0;
+    color: rgb(127, 228, 90);
+    margin-top: 220px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.second-block .tags li{
+    list-style-type: none;
+    display: inline;
+
+}
+
+.second-block .tags li a {
+    text-decoration: none;
+    color: azure;
+}
+
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.second-block {
+    background-color: aqua;
+}
+
+.logotip {
+    color: blueviolet;
+    background-color: aqua;
+    margin-left: 100px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+.logotip span {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: #6921acc7;
+}
+
+.menu{
+    background-color: gold;
+    font-size: 20px;
+}
+
+.menu .tags {
+    margin-right: 100px;
+    margin-left: 290px;
+    margin-top: 39px;
+}
+
+
+.tag a{
+    padding: 39px 15px;
+}
+
+.tag a:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+.frist-main{
+    margin:100px 0;
+}
+
+
+.home {
+    display: flex;
+    margin-left: -135px;
+}
+
+.pentagon {
+    padding-right: 200px;
+    padding-left:  100px;
+}
+
+.m-img {
+    width: 315px;
+    position: absolute;
+}
+
+.h-img {
+    position: relative;
+    width: 130px;
+    left: 90px;
+    top: 75px;
+}
+
+.pentagon .name-img {
+    position: relative;
+    left: 122px;
+    top: 90px;
+    font-size: 35px;
+    text-decoration: none;
+    color: crimson;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.name-img:hover{
+    color: deeppink;
+    font-weight: 900;
+}
+
+.second-main{
+    margin-top: 100px;
+}
+
+
+.our-title{
+    margin-top: 300px;
+    text-align: center;
+}
+
+.our-servis{
+    display: flex;
+    justify-content: space-around;
+}
+
+.our-img {
+    width: 300px;
+    height: 275px;
+}
+
+.block-down{
+    width: 300px;
+    height: 200px;
+    background-color: darkorange;
+    margin-top: -26px;
+    
+}
+
+.info {
+    padding: 20px;
+    text-align: center;
+}
