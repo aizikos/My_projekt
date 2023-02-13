@@ -246,6 +246,7 @@ body{
 .coment{
     margin-top: -50px;
     background-color: rgb(254 206 47);
+    padding-bottom: 100px;
 }
 
 .coment h1 {
@@ -283,4 +284,67 @@ body{
     float: right;
     font-family: 'Oswald', sans-serif;
     color: black;
+}
+
+.frist_footer {
+    background-color: rgb(74, 73, 73);
+    padding-bottom: 20px;
+}
+
+.footer_info {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.tips {
+    background-color: #43fffcb8;
+    border-radius: 50%;
+    width: 250px;
+    color: blueviolet;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+.tips span {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: #6921acc7;
+}
+
+.call_list h2{
+    font-size: 28px;
+}
+
+.call_list a {
+    text-decoration: none;
+    font-size: 20px;
+    color:bisque;
+}
+
+.call_list a:hover {
+    color: burlywood;
+}
+
+.second-footer{
+    background-color: rgb(49, 47, 47);
+    height: 50px;
+    margin-top: -22px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.second-footer h4{
+    color: beige;
+}
+
+.second-footer a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+
+.second-footer a:hover {
+    color: rgb(208, 219, 136);
 }
